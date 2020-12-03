@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30323.103
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "elaMicroservicesGrpc", "..\elaMicroserviceGrpc\elaMicroservicesGrpc.csproj", "{4C142378-29B9-4BAE-A3A6-1B6EADE05AE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eRTLS", "..\eRTLS\eRTLS.csproj", "{2FEE0ECE-DAF0-41AB-85A1-6CD3A1187A6D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ElaWirepasLibrary_netCore", "..\WirepasMicroservice\ElaWirepasLibrary\ElaWirepasLibrary_netCore.csproj", "{B5001917-C273-4DCC-9220-9857987DB644}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ElaPositioningEngine", "ElaPositioningEngine\ElaPositioningEngine.csproj", "{0F1219F8-8D01-40CC-82B0-B73F0B23E553}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElaWirepasDataService", "ElaWirepasDataService\ElaWirepasDataService.csproj", "{9CE0A289-72A8-4082-ACE7-A305E82485E6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C142378-29B9-4BAE-A3A6-1B6EADE05AE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C142378-29B9-4BAE-A3A6-1B6EADE05AE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C142378-29B9-4BAE-A3A6-1B6EADE05AE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C142378-29B9-4BAE-A3A6-1B6EADE05AE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FEE0ECE-DAF0-41AB-85A1-6CD3A1187A6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FEE0ECE-DAF0-41AB-85A1-6CD3A1187A6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FEE0ECE-DAF0-41AB-85A1-6CD3A1187A6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FEE0ECE-DAF0-41AB-85A1-6CD3A1187A6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5001917-C273-4DCC-9220-9857987DB644}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5001917-C273-4DCC-9220-9857987DB644}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5001917-C273-4DCC-9220-9857987DB644}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5001917-C273-4DCC-9220-9857987DB644}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F1219F8-8D01-40CC-82B0-B73F0B23E553}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F1219F8-8D01-40CC-82B0-B73F0B23E553}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F1219F8-8D01-40CC-82B0-B73F0B23E553}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F1219F8-8D01-40CC-82B0-B73F0B23E553}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CE0A289-72A8-4082-ACE7-A305E82485E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CE0A289-72A8-4082-ACE7-A305E82485E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CE0A289-72A8-4082-ACE7-A305E82485E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CE0A289-72A8-4082-ACE7-A305E82485E6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FC8CFAEF-114D-4DA4-9F81-BD580EF0E0C5}
+	EndGlobalSection
+EndGlobal

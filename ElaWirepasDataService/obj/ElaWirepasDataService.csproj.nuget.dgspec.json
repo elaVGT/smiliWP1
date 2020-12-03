@@ -1,0 +1,238 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Developpements\\Github\\SmiliWP1\\ElaWirepasDataService\\ElaWirepasDataService.csproj": {}
+  },
+  "projects": {
+    "C:\\Developpements\\Github\\elaMicroserviceGrpc\\elaMicroservicesGrpc.csproj": {
+      "version": "1.1.0",
+      "restore": {
+        "projectUniqueName": "C:\\Developpements\\Github\\elaMicroserviceGrpc\\elaMicroservicesGrpc.csproj",
+        "projectName": "elaMicroservicesGrpc",
+        "projectPath": "C:\\Developpements\\Github\\elaMicroserviceGrpc\\elaMicroservicesGrpc.csproj",
+        "packagesPath": "C:\\Users\\gharatv\\.nuget\\packages\\",
+        "outputPath": "C:\\Developpements\\Github\\elaMicroserviceGrpc\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\gharatv\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Developpements\\Github\\ElaSoftwareCommon\\bin\\Debug": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Google.Protobuf": {
+              "target": "Package",
+              "version": "[3.13.0, )"
+            },
+            "Grpc.Core": {
+              "target": "Package",
+              "version": "[2.33.1, )"
+            },
+            "Grpc.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.33.1, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Developpements\\Github\\SmiliWP1\\ElaWirepasDataService\\ElaWirepasDataService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Developpements\\Github\\SmiliWP1\\ElaWirepasDataService\\ElaWirepasDataService.csproj",
+        "projectName": "ElaWirepasDataService",
+        "projectPath": "C:\\Developpements\\Github\\SmiliWP1\\ElaWirepasDataService\\ElaWirepasDataService.csproj",
+        "packagesPath": "C:\\Users\\gharatv\\.nuget\\packages\\",
+        "outputPath": "C:\\Developpements\\Github\\SmiliWP1\\ElaWirepasDataService\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\gharatv\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Developpements\\Github\\ElaSoftwareCommon\\bin\\Debug": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Developpements\\Github\\elaMicroserviceGrpc\\elaMicroservicesGrpc.csproj": {
+                "projectPath": "C:\\Developpements\\Github\\elaMicroserviceGrpc\\elaMicroservicesGrpc.csproj"
+              },
+              "C:\\Developpements\\Github\\WirepasMicroservice\\ElaWirepasLibrary\\ElaWirepasLibrary_netCore.csproj": {
+                "projectPath": "C:\\Developpements\\Github\\WirepasMicroservice\\ElaWirepasLibrary\\ElaWirepasLibrary_netCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Grpc.Core": {
+              "target": "Package",
+              "version": "[2.33.1, )"
+            },
+            "M2MqttDotnetCore": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.Extensions.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Developpements\\Github\\WirepasMicroservice\\ElaWirepasLibrary\\ElaWirepasLibrary_netCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Developpements\\Github\\WirepasMicroservice\\ElaWirepasLibrary\\ElaWirepasLibrary_netCore.csproj",
+        "projectName": "ElaWirepasLibrary_netCore",
+        "projectPath": "C:\\Developpements\\Github\\WirepasMicroservice\\ElaWirepasLibrary\\ElaWirepasLibrary_netCore.csproj",
+        "packagesPath": "C:\\Users\\gharatv\\.nuget\\packages\\",
+        "outputPath": "C:\\Developpements\\Github\\WirepasMicroservice\\ElaWirepasLibrary\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\gharatv\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Developpements\\Github\\ElaSoftwareCommon\\bin\\Debug": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Developpements\\Github\\elaMicroserviceGrpc\\elaMicroservicesGrpc.csproj": {
+                "projectPath": "C:\\Developpements\\Github\\elaMicroserviceGrpc\\elaMicroservicesGrpc.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "ElaSoftwareCommon_netCore": {
+              "target": "Package",
+              "version": "[1.0.3, )"
+            },
+            "Google.Protobuf": {
+              "target": "Package",
+              "version": "[3.13.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
